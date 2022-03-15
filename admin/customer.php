@@ -52,7 +52,7 @@
 
                 <h1 style="color:black"> <b>Customer List</b></h1>
             </div>
-            <form method="post" action="search_book.php">
+            <form method="post" action="search_customer.php">
                 <input type="text" name="search" required />
                 <input type="submit" value="Search" />
             </form>

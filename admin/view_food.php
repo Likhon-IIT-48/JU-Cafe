@@ -39,7 +39,7 @@
 	}
 </style>
 <div class="content">
-	<table border=1 width="100%" cellspacing="3" cellpadding="5" style="box-shadow: 5px 4px 10px 2px; font-family: times new roman; background-color:">
+	<table border=1 width="100%" cellspacing="3" cellpadding="5" style="box-shadow: 5px 4px 10px 2px; font-family: times new roman; ">
 
 		<tr>
 			<th>SUB CATAGORY</th>
@@ -65,7 +65,7 @@
 		}
 		?>
 
-
+		<button style="color:azure; background-color:green;width:100px;height:50px;margin:5px"><a href="food.php" style="text-decoration: none; ">Add Food</a></button>
 	</table>
 
 

@@ -45,7 +45,7 @@
 			if ($r % 4 == 0) {
 				echo "<tr>";
 			}
-			echo "<td> <img src='{$row['image']}' alt='' width=210 height=210> <br><center><a href=dgallery.php?id={$row['id']} style='text-decoration:none; color:red;'>Delete</a></center> </td>";
+			echo "<td> <img src='{$row['image']}' alt='' width=250 height=250> <br><center><a href=dgallery.php?id={$row['id']} style='text-decoration:none; color:red;'>Delete</a></center> </td>";
 			if ($r % 4 == 3) {
 				echo "</tr>";
 			}

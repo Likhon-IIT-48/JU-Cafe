@@ -1,10 +1,14 @@
 <link rel="stylesheet" type="text/css" href="style.css">
 <style>
-	.bg .btn a{
-		text-decoration:none;
+	.bg .btn a {
+		text-decoration: none;
 		color: black;
 	}
 </style>
+
+
+<title>Admin</title>
+<link rel="shortcut icon" href="../images/j.png" type="image/x-icon">
 
 <body class="bg">
 	<div style="padding-top:100px;"></div>

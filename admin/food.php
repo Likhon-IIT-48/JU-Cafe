@@ -27,32 +27,40 @@
 		width: auto;
 		padding: 0px;
 	}
-	table,th,td{
-		border:1px solid black;
+
+	table,
+	th,
+	td {
+		border: 1px solid black;
 		font-weight: 800;
-		text-align:left;
+		text-align: left;
 	}
-	th,td{
+
+	th,
+	td {
 		padding-left: 45px;
 	}
-	table .title{
-		padding:8px 10px;
+
+	table .title {
+		padding: 8px 10px;
 		padding-left: 45px;
 	}
-	.text{
+
+	.text {
 		padding: 0px 218px;
-    font-weight: 600;
-    color: #680505;
-    letter-spacing: 2px;
+		font-weight: 600;
+		color: #680505;
+		letter-spacing: 2px;
 	}
-	.btn{
+
+	.btn {
 		margin-left: 223px;
-    padding: 4px 32px;
-    border: 2px solid blue;
-    border-radius: 10px;
-    font-weight: 800;
-    color: blueviolet;
-    cursor: pointer;
+		padding: 4px 32px;
+		border: 2px solid blue;
+		border-radius: 10px;
+		font-weight: 800;
+		color: blueviolet;
+		cursor: pointer;
 	}
 </style>
 <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
@@ -72,23 +80,16 @@
 				<td>Choose Food Category</td>
 				<td>
 					<select class="text" name="cat" onchange="showUser(this.value)">
-						<option value="kathiyawadi">Breakfast</option>
-						<option value="rajsthani">Snacks</option>
-						<option value="rise">Lunch</option>
-						
+						<option value="breakfast">Breakfast</option>
+						<option value="snacks">Snacks</option>
+						<option value="lunch">Lunch</option>
+
 					</select>
 				</td>
 
 			<tr align="center">
 				<td> Choose SubCatagory</td>
-				<td>
-					<select class="text" name="scat" onchange="showUser(this.value)">
-						<option value="kathiyawadi">kathiyawadi</option>
-						<option value="rajsthani">rajsthani</option>
-						<option value="rise">rise</option>
-				
-					</select>
-				</td>
+				<td><input type="text" name="scat" value="" placeholder="Enter Subcategory" class="text" required></td>
 			</tr>
 
 			<tr align="center">

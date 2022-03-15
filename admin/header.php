@@ -21,6 +21,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link rel="stylesheet" href="style3.css" />
 	<title>dashboard</title>
+	<link rel="shortcut icon" href="../images/j.png" type="image/x-icon">
 </head>
 
 <body>
